@@ -3367,12 +3367,18 @@
       "ShopStore.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "3.1.0"
+        },
         "compile": {
           "bin/placeholder/ShopStore.Utility.dll": {}
         },
         "runtime": {
           "bin/placeholder/ShopStore.Utility.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

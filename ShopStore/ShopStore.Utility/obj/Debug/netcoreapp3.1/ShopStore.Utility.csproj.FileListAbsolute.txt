@@ -11,8 +11,8 @@ C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\bin\Debug\netco
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\bin\Debug\netcoreapp3.1\ShopStore.Utility.dll
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\bin\Debug\netcoreapp3.1\ShopStore.Utility.pdb
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\obj\Debug\netcoreapp3.1\ShopStore.Utility.csprojAssemblyReference.cache
-C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\obj\Debug\netcoreapp3.1\ShopStore.Utility.csproj.CoreCompileInputs.cache
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\obj\Debug\netcoreapp3.1\ShopStore.Utility.AssemblyInfoInputs.cache
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\obj\Debug\netcoreapp3.1\ShopStore.Utility.AssemblyInfo.cs
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\obj\Debug\netcoreapp3.1\ShopStore.Utility.dll
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\obj\Debug\netcoreapp3.1\ShopStore.Utility.pdb
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.Utility\obj\Debug\netcoreapp3.1\ShopStore.Utility.csproj.CoreCompileInputs.cache

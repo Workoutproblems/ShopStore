@@ -14,6 +14,8 @@ using Microsoft.Extensions.Hosting;
 using ShopStore.DataAccess.Data;
 using ShopStore.DataAccess.Data.Repository.IRepository;
 using ShopStore.DataAccess.Data.Repository;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using ShopStore.Utility;
 
 namespace ShopStore
 {
@@ -35,6 +37,8 @@ namespace ShopStore
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+
+            services.AddSingleton<IEmailSender, EmailSender>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
