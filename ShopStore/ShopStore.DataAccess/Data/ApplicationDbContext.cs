@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ShopStore.Models;
 
 namespace ShopStore.DataAccess.Data
 {
@@ -12,5 +13,6 @@ namespace ShopStore.DataAccess.Data
             : base(options)
         {
         }
+        public DbSet<Category> Category { get; set; }
     }
 }

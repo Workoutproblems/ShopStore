@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ShopStore.Models
 {
-    class Category
+    public class Category
     {
         [Key]
         public int Id { get; set; }
