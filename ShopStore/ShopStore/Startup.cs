@@ -12,6 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ShopStore.DataAccess.Data;
+using ShopStore.DataAccess.Data.Repository.IRepository;
+using ShopStore.DataAccess.Data.Repository;
 
 namespace ShopStore
 {
@@ -30,9 +32,13 @@ namespace ShopStore
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddControllersWithViews().AddNewtonsoftJson().AddRazorRuntimeCompilation();
             services.AddRazorPages();
         }
 
