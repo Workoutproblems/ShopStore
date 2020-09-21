@@ -877,3 +877,4 @@ C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateAndBackToListButton.cshtml.g.cs
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditAndBackToListButton.cshtml.g.cs
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Frequency\Index.cshtml.g.cs
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Frequency\Upsert.cshtml.g.cs
