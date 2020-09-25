@@ -5,23 +5,32 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using ShopStore.DataAccess.Data.Repository.IRepository;
 using ShopStore.Models;
+using ShopStore.Models.ViewModels;
 
 namespace ShopStore.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfWork _unitOfWork;
+        private HomeViewModel HomeVM;
+        //private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IUnitOfWork unitOfWork)
         {
-            _logger = logger;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            return View();
+            HomeVM = new HomeViewModel()
+            {
+                CategoryList = _unitOfWork.Category.GetAll(),
+                ServiceList = _unitOfWork.Service.GetAll(includeProperties: "Frequency")
+            };
+            return View(HomeVM);
         }
 
         public IActionResult Privacy()
