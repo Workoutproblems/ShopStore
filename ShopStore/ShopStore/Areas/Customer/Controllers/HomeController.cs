@@ -33,6 +33,12 @@ namespace ShopStore.Controllers
             return View(HomeVM);
         }
 
+        public IActionResult Details(int id)
+        {
+            var serviceFromDb = _unitOfWork.Service.GetFirstOrDefault(includeProperties: "Category,Frequency", filter: c => c.Id == id);
+            return View(serviceFromDb);
+        }
+
         public IActionResult Privacy()
         {
             return View();
