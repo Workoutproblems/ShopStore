@@ -16,6 +16,7 @@ using ShopStore.DataAccess.Data.Repository.IRepository;
 using ShopStore.DataAccess.Data.Repository;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using ShopStore.Utility;
+using Microsoft.CodeAnalysis.Options;
 
 namespace ShopStore
 {
@@ -42,6 +43,13 @@ namespace ShopStore
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
+
             services.AddControllersWithViews().AddNewtonsoftJson().AddRazorRuntimeCompilation();
             services.AddRazorPages();
         }
@@ -62,7 +70,7 @@ namespace ShopStore
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseRouting();
 
             app.UseAuthentication();
