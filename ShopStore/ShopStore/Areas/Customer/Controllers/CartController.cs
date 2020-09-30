@@ -29,16 +29,16 @@ namespace ShopStore.Areas.Customer.Controllers
         }
         public IActionResult Index()
         {
-            if (HttpContext.Session.GetObject<List<int>>(SD.SessionCart)!=null)
+            if (HttpContext.Session.GetObject<List<int>>(SD.SessionCart) != null)
             {
                 List<int> sessionList = new List<int>();
                 sessionList = HttpContext.Session.GetObject<List<int>>(SD.SessionCart);
-                foreach (int serviceId in _unitOfWork)
+                foreach (int serviceId in sessionList)
                 {
-
+                    CartVM.ServiceList.Add(_unitOfWork.Service.GetFirstOrDefault(u => u.Id == serviceId, includeProperties: "Frequency,Category"));
                 }
             }
-            return View();
+            return View(CartVM);
         }
     }
 }
