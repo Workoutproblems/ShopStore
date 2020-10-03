@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ShopStore.DataAccess.Data.Repository;
+using ShopStore.DataAccess.Data.Repository.IRepository;
 using ShopStore.Extensions;
 using ShopStore.Models;
 using ShopStore.Models.ViewModels;
@@ -14,11 +15,11 @@ namespace ShopStore.Areas.Customer.Controllers
     [Area("Customer")]
     public class CartController : Controller
     {
-        private readonly UnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
         [BindProperty]
         public CartViewModel CartVM { get; set; }
 
-        public CartController(UnitOfWork unitOfWork)
+        public CartController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
             CartVM = new CartViewModel()

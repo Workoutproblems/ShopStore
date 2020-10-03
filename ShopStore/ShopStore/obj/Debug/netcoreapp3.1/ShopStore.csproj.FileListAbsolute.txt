@@ -881,3 +881,4 @@ C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Index.cshtml.g.cs
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Service\Upsert.cshtml.g.cs
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Home\Details.cshtml.g.cs
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Customer\Views\Cart\Index.cshtml.g.cs
