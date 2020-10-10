@@ -15,25 +15,12 @@ namespace ShopStore.DataAccess.Data.Repository
         {
             _db = db;
         }
+        public void ChangeOrderStatus(int orderHeaderId, string status)
+        {
+            var orderFromDb = _db.OrderHeader.FirstOrDefault(o => o.Id == orderHeaderId);
+            orderFromDb.Status = status;
+            _db.SaveChanges();
+        }
 
-        //public IEnumerable<SelectListItem> GetCategoryListForDropDown()
-        //{
-        //    return _db.Category.Select(i => new SelectListItem()
-        //    {
-        //        Text = i.Name,
-        //        Value = i.Id.ToString()
-        //    });
-        //}
-
-        //public void Update(Category category)
-        //{
-        //    var objFromDb = _db.Category.FirstOrDefault(s => s.Id == category.Id);
-
-        //    objFromDb.Name = category.Name;
-        //    objFromDb.DisplayOrder = category.DisplayOrder;
-
-        //    _db.SaveChanges();
-
-        //}
     }
 }
