@@ -9,6 +9,7 @@ using ShopStore.Models;
 
 namespace ShopStore.Areas.Admin.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class FrequencyController : Controller
     {

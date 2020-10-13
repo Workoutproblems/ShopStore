@@ -11,6 +11,7 @@ using ShopStore.Models.ViewModels;
 
 namespace ShopStore.Areas.Admin.Controllers
 {
+    [Authorize]
     [Area("Admin")]
     public class ServiceController : Controller
     {
