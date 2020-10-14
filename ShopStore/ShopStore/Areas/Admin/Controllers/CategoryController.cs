@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using ShopStore.DataAccess.Data.Repository.IRepository;
 using ShopStore.Models;
+using ShopStore.Utility;
 
 namespace ShopStore.Areas.Admin.Controllers
 {
@@ -64,7 +65,8 @@ namespace ShopStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            return Json(new { data  = _unitOfWork.Category.GetAll() });
+            //return Json(new { data  = _unitOfWork.Category.GetAll() });
+            return Json(new { data = _unitOfWork.SP_Call.ReturnList<Category>(SD.usp_GetAllCategory, null)});
         }
 
         [HttpDelete]

@@ -840,9 +840,6 @@ C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\bin\Debug\netcoreapp3.1
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\bin\Debug\netcoreapp3.1\ShopStore.Models.pdb
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\bin\Debug\netcoreapp3.1\ShopStore.Utility.pdb
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.csprojAssemblyReference.cache
-C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.csproj.CoreCompileInputs.cache
-C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.RazorAssemblyInfo.cache
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.RazorAssemblyInfo.cs
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.AssemblyInfoInputs.cache
@@ -925,3 +922,10 @@ C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\User\Index.cshtml.g.cs
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Index.cshtml.g.cs
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Order\Details.cshtml.g.cs
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.SqlClient.dll
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.MvcApplicationPartsAssemblyInfo.cache

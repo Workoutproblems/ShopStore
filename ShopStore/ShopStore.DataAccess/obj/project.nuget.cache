@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DHbI0H65H6RQ6fBL24Dx+k9rcYq4a5FD2PooFaL6Xq82FGxOO35JROQmNdAvIMJwOrc//Xgmv4MPxGOeuK3tYw==",
+  "dgSpecHash": "4KSvzZc8jkPLB5jKxx34+PJO5WKpeKk2MPYj4jcEKkbHv35M61AWszYFYAt+Usrhk23IPZYqxnEPSPGQy1kvJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Home\\source\\Repos\\ShopStore\\ShopStore\\ShopStore.DataAccess\\ShopStore.DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Home\\.nuget\\packages\\dapper\\1.60.6\\dapper.1.60.6.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
@@ -127,6 +128,7 @@
     "C:\\Users\\Home\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\system.data.sqlclient\\4.4.0\\system.data.sqlclient.4.4.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.diagnostics.fileversioninfo\\4.3.0\\system.diagnostics.fileversioninfo.4.3.0.nupkg.sha512",
@@ -157,7 +159,7 @@
     "C:\\Users\\Home\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.reflection.metadata\\1.4.2\\system.reflection.metadata.1.4.2.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Home\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\Home\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0\\system.reflection.typeextensions.4.4.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Home\\.nuget\\packages\\system.runtime.caching\\4.5.0\\system.runtime.caching.4.5.0.nupkg.sha512",
