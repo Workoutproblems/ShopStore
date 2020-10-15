@@ -929,3 +929,4 @@ C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\bin\Debug\netcoreapp3.1
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.csproj.CoreCompileInputs.cache
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\ShopStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\WebImage\Index.cshtml.g.cs
