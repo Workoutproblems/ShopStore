@@ -17,6 +17,7 @@ using ShopStore.DataAccess.Data.Repository;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using ShopStore.Utility;
 using Microsoft.CodeAnalysis.Options;
+using ShopStore.DataAccess.Data.Initializer;
 
 namespace ShopStore
 {
@@ -42,6 +43,7 @@ namespace ShopStore
             services.AddSingleton<IEmailSender, EmailSender>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IDbInitializer, DbInitializer>();
 
             services.AddSession(options =>
             {
@@ -55,7 +57,7 @@ namespace ShopStore
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDbInitializer dbInit)
         {
             if (env.IsDevelopment())
             {
@@ -72,6 +74,7 @@ namespace ShopStore
             app.UseStaticFiles();
             app.UseSession();
             app.UseRouting();
+            dbInit.Initialize();
 
             app.UseAuthentication();
             app.UseAuthorization();

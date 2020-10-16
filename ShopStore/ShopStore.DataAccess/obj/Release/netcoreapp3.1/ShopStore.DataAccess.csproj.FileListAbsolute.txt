@@ -1,0 +1,14 @@
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\bin\Release\netcoreapp3.1\ShopStore.DataAccess.deps.json
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\bin\Release\netcoreapp3.1\ShopStore.DataAccess.dll
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\bin\Release\netcoreapp3.1\ShopStore.DataAccess.pdb
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\bin\Release\netcoreapp3.1\ShopStore.Models.dll
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\bin\Release\netcoreapp3.1\ShopStore.Utility.dll
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\bin\Release\netcoreapp3.1\ShopStore.Models.pdb
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\bin\Release\netcoreapp3.1\ShopStore.Utility.pdb
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\obj\Release\netcoreapp3.1\ShopStore.DataAccess.csprojAssemblyReference.cache
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\obj\Release\netcoreapp3.1\ShopStore.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\obj\Release\netcoreapp3.1\ShopStore.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\obj\Release\netcoreapp3.1\ShopStore.DataAccess.AssemblyInfo.cs
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\obj\Release\netcoreapp3.1\ShopStore.DataAccess.csproj.CopyComplete
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\obj\Release\netcoreapp3.1\ShopStore.DataAccess.dll
+C:\Users\Home\source\Repos\ShopStore\ShopStore\ShopStore.DataAccess\obj\Release\netcoreapp3.1\ShopStore.DataAccess.pdb
